@@ -1,5 +1,5 @@
 import "./App.css";
-import { ShoppingCart } from "./assets/docs/shopping-cart/ShoppingCart";
+import { ShoppingCart } from "./docs/shopping-cart/ShoppingCart";
 
 function App() {
   return (
