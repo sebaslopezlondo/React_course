@@ -18,6 +18,7 @@ export function ItemCounterProduc({ productName, quantity = 1 }: Props) {
   const [count, setCount] = useState(quantity);
 
   const handleAdd = () => {
+    console.log("Hola mundo test desde ItemCounterProduc");
     setCount(count + 1);
   };
 
@@ -35,7 +36,9 @@ export function ItemCounterProduc({ productName, quantity = 1 }: Props) {
         alignItems: "center",
       }}
     >
-      <h3>Producto: {productName}</h3>
+      <h3 style={{ color: count === 1 ? "tomato" : "turquoise" }}>
+        {productName}
+      </h3>
       <button onClick={handleAdd}>+1</button>
       <span>{count}</span>
       <button onClick={handleSubstract}>-1</button>
