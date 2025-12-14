@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1765751505693" clover="3.2.0">
+  <project timestamp="1765751505693" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="5" coveredconditionals="5" methods="9" coveredmethods="9" elements="34" coveredelements="34" complexity="0" loc="20" ncloc="20" packages="3" files="4" classes="4"/>
+    <package name="docs">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="InitWithReact.tsx" path="C:\Users\Sebastian L L\Documents\DEV\REACT\aprendiendo_react\src\docs\InitWithReact.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="docs.helpers">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="math.helper.ts" path="C:\Users\Sebastian L L\Documents\DEV\REACT\aprendiendo_react\src\docs\helpers\math.helper.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="docs.shopping-cart">
+      <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <file name="ItemCounterProduc.tsx" path="C:\Users\Sebastian L L\Documents\DEV\REACT\aprendiendo_react\src\docs\shopping-cart\ItemCounterProduc.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="ShoppingCart.tsx" path="C:\Users\Sebastian L L\Documents\DEV\REACT\aprendiendo_react\src\docs\shopping-cart\ShoppingCart.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

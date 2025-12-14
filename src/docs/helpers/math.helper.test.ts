@@ -4,7 +4,7 @@
  */
 
 import { test, expect, describe } from "vitest";
-import { add, multiply, substract } from "./math.helper";
+import { add, divide, multiply, substract } from "./math.helper";
 
 test("should add two positive numbers", () => {
   //1. Arrange
@@ -28,22 +28,31 @@ test("should add two positive numbers", () => {
  * describe: Sirve para agrupar y organizar casos de prueba relacionados
  */
 describe("add", () => {
-  test("", () => {
+  test("should add two positive numbers", () => {
     const result = add(1, 1);
     expect(result).toBe(2);
   });
 });
 
 describe("substract", () => {
-  test("", () => {
+  test("should substract two positive numbers", () => {
     const result = substract(1, 1);
     expect(result).toBe(0);
   });
 });
 
 describe("multiply", () => {
-  test("", () => {
+  test("should multiply two positive numbers", () => {
     const result = multiply(2, 2);
     expect(result).toBe(2 * 2);
+  });
+});
+
+describe("divide", () => {
+  test("should divide two positive numbers", () => {
+    const a = 2;
+    const b = 4;
+    const result = divide(a, b);
+    expect(result).toBe(a / b);
   });
 });
