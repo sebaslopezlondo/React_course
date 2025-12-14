@@ -31,9 +31,14 @@ export function InitWithReact() {
    * Esto es JSX, NO HTML
    * Las propiedades CSS se escriben con camelCase siempre que estemos en el template
    */
+
+  //data-testid: No es muy recomendable ya que se pueden eliminar fácilmente y generar problemas
   return (
     <div>
       <h1>
+        {name} {lastName}
+      </h1>
+      <h1 data-testid="first-name-title">
         {name} {lastName}
       </h1>
       <h2

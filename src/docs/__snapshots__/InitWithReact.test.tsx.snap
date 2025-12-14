@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InitWithReact > should match snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+      Sebas
+       
+      Lopez
+    </h1>
+    <h1
+      data-testid="first-name-title"
+    >
+      Sebas
+       
+      Lopez
+    </h1>
+    <h2
+      style="background-color: tomato;"
+    >
+      Favorite Games
+    </h2>
+    <ul>
+      <li>
+        God of War
+      </li>
+      <li>
+        The Witcher 3
+      </li>
+      <li>
+        The Last of Us
+      </li>
+      <li>
+        Horizon Zero Dawn
+      </li>
+      <li>
+        Red Dead Redemption 2
+      </li>
+    </ul>
+    <p>
+      Es un boolean: 
+      <b />
+    </p>
+  </div>
+</div>
+`;
